@@ -1,0 +1,20 @@
+<Config>
+  <Naam>Bedrijf X</Naam>
+  <Straat>Nassau Ouwekerkstraat 3</Straat>
+  <Postcode>2596CC</Postcode>
+  <Plaats>Den Haag</Plaats>
+
+  <Gas>130000</Gas>
+  <Elektriciteit>27400</Elektriciteit>
+  <EnergetischeWaardeGasElektra>10</EnergetischeWaardeGasElektra>
+
+  <Verdiepingen>3</Verdiepingen>
+  <Bouwjaar>2024</Bouwjaar>
+  <Categorie>Detailhandel zonder koeling</Categorie>
+  <Oppervlakte>5000</Oppervlakte>
+  <HoogtePlafond>3</HoogtePlafond>
+  <GemHoogtePlafond>2.7</GemHoogtePlafond>
+
+  <CBSDatafile>cbsdata.xlsx</CBSDatafile>
+  <Outputfile>opdracht1.xlsx</Outputfile>
+</Config>

@@ -1,0 +1,20 @@
+<Config>
+  <Inflatie>0.02</Inflatie>
+  <Afschrijving>Linear</Afschrijving>
+  <EigenVermogen>0.2</EigenVermogen>
+  <RenteVV>0.04</RenteVV>
+  <Belasting>.165</Belasting>
+
+  <Termijn>12</Termijn>
+  <HerinvesteringJaar>6</HerinvesteringJaar>
+  <Investering>160000</Investering>
+  <Restwaarde>0</Restwaarde>
+  <Besparing>20000</Besparing>
+  <EenmaligeSubsidie>10000</EenmaligeSubsidie>
+  <JaarlijkseSubsidie>800</JaarlijkseSubsidie>
+  <EenmaligeKosten>30000</EenmaligeKosten>
+  <VasteExploitatieKosten>2000</VasteExploitatieKosten>
+  <Herinvestering>4000</Herinvestering>
+
+  <Outputfile>opdracht2.xlsx</Outputfile>
+</Config>
