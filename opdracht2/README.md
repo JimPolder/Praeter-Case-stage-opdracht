@@ -1,6 +1,6 @@
-===============================
+
 Financiële Besparingsanalyse Tool (Python)
-===============================
+
 
 Dit project bevat een Python-script die een financiële analyse uitvoert op basis van een XML-configuratiebestand. Het berekent onder andere:
 
@@ -12,18 +12,18 @@ Dit project bevat een Python-script die een financiële analyse uitvoert op basi
 
 De resultaten worden weggeschreven naar een Excel-template, inclusief gegevensinvoer.
 
------------------------------
+
 📂 Bestandsstructuur
------------------------------
+
 
 - opdracht2.py        → Hoofdscript voor berekening en output
 - template.xlsx       → Excel-bestand met opmaak en velden waarin de resultaten worden geschreven
 - config.xml          → Configuratiebestand met inputgegevens voor een specifieke analyse
 - Opdracht2.xlsx      → De uiteindelijke output (Excelbestand met ingevulde data)
 
------------------------------
+
 ⚙️ Benodigdheden
------------------------------
+
 
 - Python 3.7+
 - openpyxl
@@ -33,9 +33,9 @@ Installeer de vereisten via pip:
 
 pip install pandas openpyxl
 
------------------------------
+
 🧾 Voorbeeld van config.xml
------------------------------
+
 <config>
     <Termijn>12</Termijn>
     <Inflatie>0.02</Inflatie>
