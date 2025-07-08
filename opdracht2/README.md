@@ -36,6 +36,7 @@ pip install pandas openpyxl
 
 🧾 Voorbeeld van config.xml
 
+```xml
 <config>
     <Termijn>12</Termijn>
     <Inflatie>0.02</Inflatie>
