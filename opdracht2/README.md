@@ -5,7 +5,7 @@ Financiële Besparingsanalyse Tool (Python)
 Dit project bevat een Python-script die een financiële analyse uitvoert op basis van een XML-configuratiebestand. Het berekent onder andere:
 
 - Jaarlijkse kosten en baten
-- EBITDA, cashflows, afschrijvingen
+- EBITDA, cashflows, afschrijvingen (alleen lineair)
 - IRR (interne rentevoet), REV (rendement eigen vermogen)
 - TVT (terugverdientijd)
 - Netto winst
