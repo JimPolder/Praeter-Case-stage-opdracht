@@ -1,14 +1,14 @@
-===============================
+
 Verbruiksanalyse Tool (Python)
-===============================
+
 
 Dit project bevat een Python-script voor het analyseren en vergelijken van energieverbruik op basis van een configuratiebestand en CBS-data.
 Het script voert berekeningen uit over gas- en elektriciteitsverbruik per m², per m³, en in totaal. 
 De resultaten worden geschreven naar een Excel-bestand op basis van een template, inclusief een visuele barchart.
 
------------------------------
+
 📂 Bestandsstructuur
------------------------------
+
 
 - opdracht1.py        → Hoofdscript voor berekening en output
 - template.xlsx       → Excel-bestand met opmaak en velden waarin de resultaten worden geschreven
@@ -16,9 +16,9 @@ De resultaten worden geschreven naar een Excel-bestand op basis van een template
 - config.xml          → Configuratiebestand met inputgegevens voor een specifieke analyse
 - Opdracht1.xlsx      → De uiteindelijke output (Excelbestand met ingevulde data en grafiek)
 
------------------------------
+
 ⚙️ Benodigdheden
------------------------------
+
 
 - Python 3.7+
 - openpyxl
@@ -29,9 +29,10 @@ Installeer de vereisten via pip:
 pip install openpyxl pandas
 
 
------------------------------
+
 🧾 Voorbeeld van config.xml
------------------------------
+
+```xml
 <config>
     <Naam>Bedrijf X</Naam>
     <Straat>Nassau Ouwerkerkstraat 3</Straat>
@@ -49,6 +50,7 @@ pip install openpyxl pandas
     <CBSDatafile>cbsdata.xlsx</CBSDatafile>
     <Outputfile>Opdracht1.xlsx</Outputfile>
 </config>
+```
 
 Voer het script uit met een XML-configuratiebestand als argument:
 

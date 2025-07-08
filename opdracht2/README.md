@@ -59,6 +59,7 @@ pip install pandas openpyxl
 
     <Outputfile>Opdracht2.xlsx</Outputfile>
 </config>
+```
 
 Voer het script uit met een XML-configuratiebestand als argument:
 
